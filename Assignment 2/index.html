@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                border-top:20px solid rgb(116, 8, 116);
+                border-left:15px solid rgb(116, 8, 116);
+                
+                height:100vh;
+                padding:0;
+                margin:0;
+                background-color: rgb(153, 30, 30);
+                
+            }
+            #x{
+                position: absolute;
+                top: 20px;
+                left: 15px;
+                width:100%;
+                height: 100%;
+                border-top: 1px solid white;
+                border-left: 1px solid white;
+            }
+            #personal-info{
+                position: absolute;
+                top: 10px;
+                border: 1px solid white;
+                background-color: orange;
+                width: fit-content;
+                height: fit-content;
+                margin-left: 20px; 
+            }
+            #names{
+                position: absolute;
+                width: 100%;
+                margin-top: 75px;
+                margin-left: 10px;
+                padding-top: 50px;
+                padding-left: 40px;
+                padding-bottom: 10px;
+                border: 1px solid white;
+                background-color: green;
+            }
+            #your-name{
+                position: absolute;
+                margin: 50px;
+                height:50px;
+                line-height: 50px;
+                text-align: center;
+                background-color: rgb(18, 18, 181); 
+                z-index: 1;               
+            }
+            #data{
+                position: absolute;
+                margin-top:230px;
+                margin-left: 10px;
+                
+            }
+            label {
+                display: inline-block;
+                width: 100px;
+                text-align-last: justify;
+            } 
+            button{
+
+            }
+        </style>
+    </head>
+    <body>
+        <div id="x">
+            <div id="your-name">
+                Your Name
+            </div>
+            <div id="names">
+                <form>
+                    <label for="firstname">FirstName :</label>
+                    <input type="text" id="firstname" name="firstname">
+                    <br> <br>
+                    <label for="lastname">LastName :</label>
+                    <input type="text" id="lastname" name="lastname">
+                </form>
+            </div>
+            <div id="data">
+                <form>
+                    <label for="phone">Phone :</label>
+                    <input type="number" id="phone" name="phone">
+                    <br> <br>
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email">
+                    <br> <br>
+                    <label for="password">password :</label>
+                    <input type="password" id="password" name="password">
+                    <br> <br>
+                    <label for="re-password">re-password :</label>
+                    <input type="password" id="re-password" name="re-password">
+                    <br> <br> <br>
+                    <label for="male">Male :</label>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <br> 
+                    <label for="female">Female :</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <br> <br> 
+                    <label for="student">Student :</label>
+                    <input type="radio" id="student" name="status" value="student">
+                    <br> 
+                    <label for="graduated">Graduated :</label>
+                    <input type="radio" id="graduated" name="status" value="graduated">
+                    <br> <br>
+                    <label for="cars">Choose a car:</label>
+                    <select name="cars" id="cars">
+                        <option value="mercedes">Mercedes CLA</option>
+                        <option value="volvo">Volvo</option>
+                        <option value="saab">Saab</option>
+                        <option value="audi">Audi</option>
+                    </select>
+                    <br> <br>
+                    <button type="submit">
+                        <img src="s.png" width=90px/>
+                    </button>
+                </form>
+            </div>
+
+
+        </div>
+        <div id="personal-info">
+            Personal Data
+        </div>
+        
+    </body>
+</html>
