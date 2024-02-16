@@ -1,0 +1,46 @@
+.line {
+    position: absolute;
+    padding: 0px;
+    margin-left: 1%;
+    /* margin-right: 1%; */
+    top:0;
+    height: 5px;
+    width: 97%; 
+    background-color: red;
+
+}
+.polygon {
+	margin-top: 2%;
+    margin-left: 1%;
+    border-bottom: 50px solid #383434;
+	border-right: 25px solid transparent;
+	height: 0;
+	width: 125px;
+    text-align: center;
+    line-height: 50px;
+}
+.profile {
+    color: white;
+}
+.all-images {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.square {
+  height: 300px;
+  width: 33%;
+  display: inline-block;
+}
+.name {
+    text-indent: 5%;
+    color: #897e7e;
+    font-size: large;
+    font-weight: 550;
+    margin-bottom: 0px;
+}
+.country {
+    margin-top: 2%;
+    text-indent: 5%;
+    color: #cdc8c8;
+
+}
